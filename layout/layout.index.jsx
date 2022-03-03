@@ -13,7 +13,7 @@ const Layout = ({ children }) => {
     <div className="flex flex-col md:flex-row md:cursor-none">
       <SEO
         title={
-          currentPath === 0
+          currentPath === 0 || currentPath === -1
             ? "Eric Haller Portfolio"
             : lang[locale].nav.content[currentPath]
         }

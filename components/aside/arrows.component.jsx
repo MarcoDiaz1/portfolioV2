@@ -8,17 +8,18 @@ import { MouseContext } from "../../MouseContext";
 
 const Arrows = () => {
   const router = useRouter();
-  let test;
+
+  console.log();
 
   const nextIndex =
-    router.route === "/404" || router.route === "/500"
+    paths.indexOf(router.route) === -1
       ? 0
       : paths.indexOf(router.route) === paths.length - 1
       ? 0
       : paths.indexOf(router.route) + 1;
 
   const prevIndex =
-    router.route === "/404" || router.route === "/500"
+    paths.indexOf(router.route) === -1
       ? paths.length - 1
       : paths.indexOf(router.route) === 0
       ? paths.length - 1

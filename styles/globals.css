@@ -1,3 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@font-face {
+  font-family: "Saturdate Serif";
+  src: url("/fonts/Saturdate Serif.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cinzel";
+  src: url("/fonts/Cinzel.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Constantine";
+  src: url("/fonts/Constantine.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Code128";
+  src: url("/fonts/Code128.ttf");
+  font-display: swap;
+}
+@font-face {
+  font-family: "Cartier";
+  src: url("/fonts/Cartier.ttf");
+  font-display: swap;
+}
+
+.writingMode {
+  writing-mode: tb;
+}
+
+.writingModeNormal {
+  writing-mode: initial !important;
+}
+
 html,
 body {
   padding: 0;

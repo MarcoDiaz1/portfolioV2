@@ -1,0 +1,29 @@
+$baseColor: transparent;
+$stripe: #707272;
+$stripeDark: #faebd7;
+
+.bars {
+  background-size: 225.58px 189.28px;
+}
+
+.barsDark {
+  background-image: linear-gradient(
+    40deg,
+    transparent 6.9%,
+    #faebd7 6.9%,
+    #faebd7 20.69%,
+    transparent 20.69%,
+    transparent 27.59%,
+    #faebd7 27.59%,
+    #faebd7 50%,
+    transparent 50%,
+    transparent 56.9%,
+    #faebd7 56.9%,
+    #faebd7 70.69%,
+    transparent 70.69%,
+    transparent 77.59%,
+    #faebd7 77.59%,
+    #faebd7 100%
+  );
+  background-size: 225.58px 189.28px;
+}

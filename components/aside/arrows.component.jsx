@@ -10,14 +10,14 @@ const Arrows = () => {
   const router = useRouter();
 
   const nextIndex =
-    router.route === "/404"
+    router.route === "/404" || router.route === "/500"
       ? 0
       : paths.indexOf(router.route) === paths.length - 1
       ? 0
       : paths.indexOf(router.route) + 1;
 
   const prevIndex =
-    router.route === "/404"
+    router.route === "/404" || router.route === "/500"
       ? paths.length - 1
       : paths.indexOf(router.route) === 0
       ? paths.length - 1

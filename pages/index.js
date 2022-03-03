@@ -61,6 +61,7 @@ export default function Home() {
               layout="fill"
               objectFit="fill"
               className="first:grayscale"
+              priority="true"
             />
           </div>
           <div className="hidden md:flex absolute right-0 h-screen  xl:w-[50vw]">

@@ -41,6 +41,10 @@ const lang = {
         empty: "All fields have to be fulfilled",
       },
     },
+    fourCeroFour: {
+      title: "Page not found!",
+      subTitle: "Home Page",
+    },
   },
   "es-ES": {
     nav: {
@@ -83,6 +87,10 @@ const lang = {
       error: {
         empty: "Todos los campos tienen que ser llenados",
       },
+    },
+    fourCeroFour: {
+      title: "Pagina no encontrada!",
+      subTitle: "Volver al inicio",
     },
   },
 };

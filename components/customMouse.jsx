@@ -6,9 +6,6 @@ const CustomMouse = () => {
   // 1.
   const { cursorType, cursorChangeHandler } = useContext(MouseContext);
   const { x, y } = useMousePosition();
-
-  console.log(cursorType);
-
   return (
     <>
       {/* 2. */}

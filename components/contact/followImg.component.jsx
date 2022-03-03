@@ -12,6 +12,7 @@ const FollowImg = () => {
           layout="fill"
           objectFit="fill"
           className=""
+          priority="true"
         />
       </div>
     </div>

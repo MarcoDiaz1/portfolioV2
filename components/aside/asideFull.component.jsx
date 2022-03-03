@@ -12,6 +12,7 @@ const AsideFull = () => {
       <div className="h-2/6 w-full flex flex-col justify-end font-bold items-center font-title ">
         <ThemeSelect />
         <LangSelect />
+        <Arrows />
       </div>
     </div>
   );

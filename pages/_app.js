@@ -8,9 +8,16 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <Layout>
-      <Component {...pageProps} />
-    </Layout>
+    <ThemeProvider attribute="class">
+      <ParallaxProvider>
+        <MouseContextProvider>
+          <CustomMouse />
+          <Layout>
+            <Component {...pageProps} />
+          </Layout>
+        </MouseContextProvider>
+      </ParallaxProvider>
+    </ThemeProvider>
   );
 }
 

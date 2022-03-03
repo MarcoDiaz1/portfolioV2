@@ -8,14 +8,9 @@ import "../styles/globals.css";
 
 function MyApp({ Component, pageProps }) {
   return (
-    <ParallaxProvider>
-      <MouseContextProvider>
-        <CustomMouse />
-        <Layout>
-          <Component {...pageProps} />
-        </Layout>
-      </MouseContextProvider>
-    </ParallaxProvider>
+    <Layout>
+      <Component {...pageProps} />
+    </Layout>
   );
 }
 

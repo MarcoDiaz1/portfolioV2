@@ -11,17 +11,6 @@ const Layout = ({ children }) => {
 
   return (
     <div className="flex flex-col md:flex-row md:cursor-none">
-      <SEO
-        title={
-          currentPath === 0 || currentPath === -1
-            ? "Eric Haller Portfolio"
-            : lang[locale].nav.content[currentPath]
-        }
-        url={pathname}
-        description={lang[locale].pages.desc[currentPath]}
-      />
-      <Aside />
-
       <div className="w-full md:pl-[18vw] xl:pl-[15vw] md:w-[100vw] h-screen pt-[8vh] md:pt-0">
         {children}
       </div>

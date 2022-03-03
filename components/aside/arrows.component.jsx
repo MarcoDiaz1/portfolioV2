@@ -8,6 +8,7 @@ import { MouseContext } from "../../MouseContext";
 
 const Arrows = () => {
   const router = useRouter();
+  let test;
 
   const nextIndex =
     router.route === "/404" || router.route === "/500"

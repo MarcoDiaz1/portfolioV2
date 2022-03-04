@@ -74,6 +74,40 @@ module.exports = {
         "0%": { transform: "rotate(0deg)" },
         "100%": { transform: "rotate(360deg)" },
       },
+      pulse: {
+        "0%": { boxShadow: "0 0 0 0 #42313a" },
+        "100%": { boxShadow: "0 0 0 6vw transparent" },
+      },
+      confetiOne: {
+        "0%": {
+          background: "#01ef92",
+          transform: "translate(40%, 40%) rotate(0deg)",
+        },
+        "100%": {
+          background: "transparent",
+          transform: "translate(750%, -150%) rotate(180deg)",
+        },
+      },
+      confetiTwo: {
+        "0%": {
+          background: "#ffff00",
+          transform: "translate(50%, 50%) rotate(0deg)",
+        },
+        "100%": {
+          background: "transparent",
+          transform: "translate(0%, -560%)",
+        },
+      },
+      confetiThree: {
+        "0%": {
+          borderColor: "transparent transparent crimson transparent",
+          transform: "translate(50%, 50%) rotate(0deg)",
+        },
+        "100%": {
+          borderColor: "transparent",
+          transform: "translate(-800%, -100%) rotate(180deg)",
+        },
+      },
     },
     animation: {
       backgroundPos: "backgroundPos 30s linear infinite",
@@ -81,6 +115,10 @@ module.exports = {
       infiniteOne: "infiniteText 21s linear infinite",
       infiniteY: "infiniteTextY 20s linear infinite",
       rotateText: "rotateText 40s linear infinite",
+      pulse: "pulse 1s linear 1",
+      confetiOne: "confetiOne 1s linear 1",
+      confetiTwo: "confetiTwo 1s linear 1",
+      confetiThree: "confetiThree 1s linear 1",
     },
   },
   plugins: [],

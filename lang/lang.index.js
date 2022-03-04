@@ -40,6 +40,10 @@ const lang = {
       error: {
         empty: "All fields have to be fulfilled",
       },
+      emailSend: {
+        title: "Email Sended!",
+        desc: "Thank you for contacting us. We will contact you shortly!",
+      },
     },
     fourCeroFour: {
       title: "Page not found!",
@@ -86,6 +90,10 @@ const lang = {
       clean: "Limpiar",
       error: {
         empty: "Todos los campos tienen que ser llenados",
+      },
+      emailSend: {
+        title: "Correo Enviado!",
+        desc: "Gracias por contactarnos nos pondremos en contacto contigo en breve!",
       },
     },
     fourCeroFour: {

@@ -6,7 +6,7 @@ import emailjs from "@emailjs/browser";
 import lang from "../../lang/lang.index";
 import { MouseContext } from "../../MouseContext";
 
-const FormContact = () => {
+const FormContact = ({ setFormSend }) => {
   const { locale } = useRouter();
   const [email, setEmail] = useState("");
   const [subject, setSubject] = useState("");
@@ -32,7 +32,7 @@ const FormContact = () => {
         )
         .then(
           (result) => {
-            console.log(result.text);
+            setFormSend(true);
           },
           (error) => {
             console.log(error.text);

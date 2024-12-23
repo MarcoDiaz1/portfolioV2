@@ -31,7 +31,7 @@ const lang = {
     },
     contact: {
       title: "Personalized attention!",
-      subTitle: "Contact for consults, quotes, etc.",
+      subTitle: "Contact for consults, quotes, etc. with Alberto Ochoa Renteria / Alex Camarena",
       email: "Email",
       subject: "Subject",
       message: "Message",
@@ -82,7 +82,7 @@ const lang = {
     },
     contact: {
       title: "Atencion Personalizada!",
-      subTitle: "Contacto a consultas, cotizaciones, etc",
+      subTitle: "Contacto a consultas, cotizaciones, etc con Alberto Ochoa Renteria / Alex Camarena",
       email: "Correo",
       subject: "Asunto",
       message: "Mensaje",
